@@ -27,6 +27,9 @@ nav ul li {
     font-size: 1.5em;
     padding: .5em;
 }
+nav ul li a {
+    font-family: Lora;
+}
 nav {
     border-top: #d0d0d0 solid 1px;
     border-bottom: #d0d0d0 solid 1px;
@@ -42,6 +45,7 @@ main {
 h1, 
 h2 {
     font-family: Lora;
+    font-weight: 500;
 } 
 h1 {
     color: #333;
@@ -96,7 +100,7 @@ nav ul {
     display: flex; 
     justify-content: end;
     margin-block-start: 0;
-    margin-block-end: 0;
+    margin-block-end: 0 ;
 }
 article:nth-of-type(2) {
   display: grid;
