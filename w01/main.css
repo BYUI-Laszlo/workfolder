@@ -81,3 +81,35 @@ figure {
     display: flex;
     justify-content: center;
 }
+@media screen and (min-width: 550px){
+body div {
+    min-width: 550px;
+    max-width: 1920px;
+}
+h1 {
+    font-size: 5em;
+}
+header {
+    width: 100%;
+}
+nav ul {
+    display: flex; 
+    justify-content: end;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+article:nth-of-type(2) {
+  display: grid;
+}
+article {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+section {
+    border-top: none;
+    border-left: #d0d0d0 solid 1px;
+}
+article:nth-of-type(2) section   {
+    border-top: #d0d0d0 solid 1px;
+}
+}
